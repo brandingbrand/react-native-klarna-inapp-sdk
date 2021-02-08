@@ -65,7 +65,7 @@ public class PaymentViewWrapper extends LinearLayout {
             return;
         }
 
-        final int viewWidth = getParentViewWidth();
+        final int viewWidth = getParentViewWidth() - 150;
 
         // Note: window.innerHeight, document.body.getClientBoundingRect(), etc... don't return the
         // right value.
